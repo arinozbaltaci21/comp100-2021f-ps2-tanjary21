@@ -73,7 +73,7 @@
     {
       "name": "3.2",
       "setup": "",
-      "run": "pyhton3 part3.py",
+      "run": "python3 part3.py",
       "input": "cry\r\npoo\r\npuke\r\nburp\r\ncry\r\ncry\r\ncry\r\nfart",
       "output": "player 1 score: 0, player 1 strikes left: 0,   player 2 score: 84, player 2 strikes left: 3",
       "comparison": "included",
@@ -93,7 +93,7 @@
     {
       "name": "3.4",
       "setup": "",
-      "run": "python3 part3.py",
+      "run": "pyhon3 part3.py",
       "input": "eat my candy\r\ncry\r\npoo\r\npuke\r\nburp\r\ncry\r\ncry\r\ncry\r\nfart",
       "output": "player 1 score: 84, player 1 strikes left: 3,   player 2 score: 0, player 2 strikes left: 0",
       "comparison": "included",
