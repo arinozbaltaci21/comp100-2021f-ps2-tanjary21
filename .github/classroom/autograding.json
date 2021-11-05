@@ -1,0 +1,124 @@
+{
+  "tests": [
+    {
+      "name": "1.1",
+      "setup": "",
+      "run": "python3 part1.py",
+      "input": "mustard",
+      "output": "25",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "1.2",
+      "setup": "",
+      "run": "python3 part1.py",
+      "input": "zit",
+      "output": "14",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "1.3",
+      "setup": "",
+      "run": "python3 part1.py",
+      "input": "mayonnaise",
+      "output": "0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "2.1",
+      "setup": "",
+      "run": "python3 part2.py",
+      "input": "poo\r\nwet self\r\nwet self\r\nwet self",
+      "output": "player score: 28, player strikes left: 0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "2.2",
+      "setup": "",
+      "run": "python3 part2.py",
+      "input": "cry\r\ncry some more\r\ncry a lot\r\nwake me at 3 am",
+      "output": "player score: 39, player strikes left: 0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "2.3",
+      "setup": "",
+      "run": "python3 part2.py",
+      "input": "cry\r\nmake mess\r\neat my candy\r\npoo\r\nfart\r\npuke on me\r\npee\r\nburp\r\nnurse",
+      "output": "player score: 98, player strikes left: 2",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "3.1",
+      "setup": "",
+      "run": "python3 part3.py",
+      "input": "cry\r\npoo\r\npuke\r\nburp\r\ncry\r\ncry\r\ncry\r\ncry",
+      "output": "player 1 score: 84, player 1 strikes left: 0,   player 2 score: 0, player 2 strikes left: 3",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "3.2",
+      "setup": "",
+      "run": "pyhton3 part3.py",
+      "input": "cry\r\npoo\r\npuke\r\nburp\r\ncry\r\ncry\r\ncry\r\nfart",
+      "output": "player 1 score: 0, player 1 strikes left: 0,   player 2 score: 84, player 2 strikes left: 3",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "3.3",
+      "setup": "",
+      "run": "python3 part3.py",
+      "input": "eat my candy\r\ncry\r\npoo\r\npuke\r\nburp\r\ncry\r\ncry\r\ncry\r\ncry",
+      "output": "player 1 score: 0, player 1 strikes left: 3,   player 2 score: 84, player 2 strikes left: 0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "3.4",
+      "setup": "",
+      "run": "pyhon3 part3.py",
+      "input": "eat my candy\r\ncry\r\npoo\r\npuke\r\nburp\r\ncry\r\ncry\r\ncry\r\nfart",
+      "output": "player 1 score: 84, player 1 strikes left: 3,   player 2 score: 0, player 2 strikes left: 0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "3.5",
+      "setup": "",
+      "run": "python3 part3.py",
+      "input": "cry\r\npoo\r\nnurse\r\npee\r\nfart\r\nmess\r\nburp\r\neat my candy\r\nburp\r\npuke",
+      "output": "player 1 score: 98, player 1 strikes left: 1,   player 2 score: 0, player 2 strikes left: 3",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "4.1",
+      "setup": "",
+      "run": "python3 part4.py",
+      "input": "eat my candy\r\ncry\r\npoo\r\npuke\r\nburp\r\nmaKe MeSs\r\ntoss fOOd\r\ncry\r\ncry\r\nfart\r\nlemon\r\nmustard\r\nketchup\r\ntoothpaste\r\nzit\r\nglue\r\nglue\r\nbutthole\r\npooper\r\npersonality\r\nmouth\r\nheart\r\njob\r\ncar\r\nhouse\r\nwife\r\nbody\r\nlotion\r\noil\r\nwax\r\nhair med\r\nhand\r\njelly\r\nshampoo\r\nsoap\r\nherbs\r\nother people's hair\r\nboobs",
+      "output": "player 1 score: 287, player 1 strikes left: 0,   player 2 score: 368, player 2 strikes left: 3",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 45
+    }
+  ]
+}
