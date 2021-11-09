@@ -34,7 +34,7 @@
       "name": "2.1",
       "setup": "",
       "run": "python3 part2.py",
-      "input": "poo\r\nwet self\r\nwet self\r\nwet self",
+      "input": "poo\\n\r\nwet self\\n\r\nwet self\\n\r\nwet self\\n",
       "output": "player score: 28, player strikes left: 0",
       "comparison": "included",
       "timeout": 10,
