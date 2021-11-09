@@ -31,4 +31,4 @@ while player_strikes_left != 0 and len(possible_answers) != 0:
 ###################################
 ######## End of your code #########
 ###################################
-print(f'player score: {player_score}, player strikes left: {player_strikes_left}')
+print('player score: ', player_score, 'player strikes left: ', player_strikes_left)
