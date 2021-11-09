@@ -9,7 +9,7 @@ player_score = 0
 def is_match(player_answer, possible_answer):
   possible_answer = possible_answer.lower().replace("'s","").replace("/"," ").replace(".","")
   player_answer = player_answer.lower().replace("'s","").replace("/"," ").replace(".","")
-
+  print(player_answer, possible_answer)
   return player_answer in possible_answer
 
 def is_right(player_answer, possible_answers):
