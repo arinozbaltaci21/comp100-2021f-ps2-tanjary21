@@ -36,12 +36,14 @@ for r in range(4):
   #print(f'question: {question}')
   #print(f'possible_answers: {possible_answers}')
   round_points = 0
-  player_1_answer = input("player 1 answer: ")
+  #player_1_answer = input("player 1 answer: ")
+  player_1_answer = input()
   round_points += multiplier*is_right(player_1_answer,possible_answers)
   if round_points != 0:
     #print("\nplayer 1 controls\n")
     while player_1_strikes_left != 0 and len(possible_answers) != 0:
-      player_1_answer = input("player 1 answer: ")
+      #player_1_answer = input("player 1 answer: ")
+      player_1_answer = input()
       points = multiplier*is_right(player_1_answer,possible_answers)
       if points == 0:
         player_1_strikes_left -= 1
@@ -54,7 +56,8 @@ for r in range(4):
     else:
       #print(" \nplayer 1 out of strikes. player 2, chance to steal")
       #print(f'\n{possible_answers}\n')
-      player_2_answer = input("player 2 answer: ")
+      #player_2_answer = input("player 2 answer: ")
+      player_2_answer = input()
       points = multiplier*is_right(player_2_answer, possible_answers)
       if points != 0:
         player_2_score += round_points
@@ -63,7 +66,8 @@ for r in range(4):
   else:
     #print("\nplayer 2 controls")
     while player_2_strikes_left != 0 and len(possible_answers) != 0:
-      player_2_answer = input("player 2 answer: ")
+      #player_2_answer = input("player 2 answer: ")
+      player_2_answer = input()
       points = multiplier*is_right(player_2_answer,possible_answers)
       if points == 0:
         player_2_strikes_left -= 1
@@ -76,7 +80,8 @@ for r in range(4):
     else:
       #print(" \nplayer 2 out of strikes. player 1, chance to steal")
       #print(f'\n{possible_answers}\n')
-      player_1_answer = input("player 1 answer: ")
+      #player_1_answer = input("player 1 answer: ")
+      player_1_answer = input()
       points = multiplier*is_right(player_1_answer, possible_answers)
       if points != 0:
         player_1_score += round_points

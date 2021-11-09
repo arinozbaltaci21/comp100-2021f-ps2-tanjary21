@@ -21,7 +21,8 @@ def is_right(player_answer, possible_answers):
   return 0
 
 while player_strikes_left != 0 and len(possible_answers) != 0:
-  player_answer = input("player answer: ")
+  #player_answer = input("player answer: ")
+  player_answer = input()
   points = is_right(player_answer,possible_answers)
   if points == 0:
     player_strikes_left -= 1
