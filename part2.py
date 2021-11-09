@@ -6,7 +6,27 @@ player_score = 0
 ###################################
 ####### Start of your code ########
 ###################################
+def is_match(player_answer, possible_answer):
+  possible_answer = possible_answer.lower().replace("'s","").replace("/"," ").replace(".","")
+  player_answer = player_answer.lower().replace("'s","").replace("/"," ").replace(".","")
 
+  return player_answer in possible_answer
+
+def is_right(player_answer, possible_answers):
+  for i,(possible_answer, points) in enumerate(possible_answers):
+    if is_match(player_answer, possible_answer):
+      possible_answers.pop(i)
+      return points
+  
+  return 0
+
+while player_strikes_left != 0 and len(possible_answers) != 0:
+  player_answer = input("player answer: ")
+  points = is_right(player_answer,possible_answers)
+  if points == 0:
+    player_strikes_left -= 1
+  else:
+    player_score += points
 ###################################
 ######## End of your code #########
 ###################################
