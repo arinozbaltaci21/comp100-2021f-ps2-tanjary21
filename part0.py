@@ -6,6 +6,7 @@ is_correct = None
 ###################################
 ####### Start of your code ########
 ###################################
+import math
 def is_right(player_answer, possible_answer):
   possible_answer = possible_answer.lower().replace("'s","").replace("/"," ").replace(".","")
   player_answer = player_answer.lower().replace("'s","").replace("/"," ").replace(".","")
