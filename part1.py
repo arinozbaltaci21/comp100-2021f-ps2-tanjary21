@@ -23,6 +23,7 @@ def is_right(player_answer, possible_answers):
   return 0
 
 player_score = is_right(player_answer, possible_answers)
+
 ###################################
 ######## End of your code #########
 ###################################
