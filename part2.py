@@ -28,7 +28,7 @@ while player_strikes_left != 0 and len(possible_answers) != 0:
     player_strikes_left -= 1
   else:
     player_score += points
-  #print(player_score, player_strikes_left)
+  
 ###################################
 ######## End of your code #########
 ###################################
