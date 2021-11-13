@@ -13,6 +13,7 @@ def is_right(player_answer, possible_answer):
   return player_answer in possible_answer
 
 is_correct = is_right(player_answer, possible_answer)
+
 ###################################
 ######## End of your code #########
 ###################################
